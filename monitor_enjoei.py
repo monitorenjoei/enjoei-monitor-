@@ -5,7 +5,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-BUSCA_URL = "https://www.enjoei.com.br/api/v2/search"
+BUSCA_URL = "https://www.enjoei.com.br/search"
 PALAVRA_CHAVE = "grêmio"
 PRECO_MAX = 350
 ARQUIVO_VISTOS = "vistos.json"
